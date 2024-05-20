@@ -44,5 +44,5 @@ Seafile is an open source file sync and share platform, focusing on reliability 
       networks:
         - seafile-net
   
-  networks:
-    seafile-net:
+    networks:
+      seafile-net:
