@@ -1,5 +1,13 @@
 # seafile-docker
 Seafile is an open source file sync and share platform, focusing on reliability and performance. Seafile's built-in collaborative document SeaDoc, make it easy for collaborative writing and publishing documents.
+# check for user ID and group ID
+Since Syncthing is downloading and transferring files from your system, it must run under the user who will own the files you are accessing.
+You can get your current user’s ID using the “id” command, as shown below.
+
+
+     id -u
+     id -g
+The result  shows that our group ID and  User ID
 # docker-comit.yml
  
     services:
