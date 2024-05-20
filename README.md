@@ -7,7 +7,7 @@ You can get your current user’s ID using the “id” command, as shown below.
 
      id -u
      id -g
-The result  shows that our group ID and  User ID
+The result  shows our group ID and  User ID
 # docker-comit.yml
  
     services:
